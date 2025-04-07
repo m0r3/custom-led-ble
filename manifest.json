@@ -1,6 +1,6 @@
 {
-  "domain": "led_ble",
-  "name": "LED BLE",
+  "domain": "custom_led_ble",
+  "name": "LED BLE (Custom)",
   "bluetooth": [
     {
       "local_name": "LEDnet*"
@@ -30,7 +30,7 @@
       "local_name": "LD-0003"
     }
   ],
-  "codeowners": ["@bdraco"],
+  "codeowners": ["@m0r3"],
   "config_flow": true,
   "dependencies": ["bluetooth_adapters"],
   "documentation": "https://www.home-assistant.io/integrations/led_ble",
